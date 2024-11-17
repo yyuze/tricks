@@ -11,8 +11,8 @@ add gas-related params to call(), for example:
 ```
   console.log(await contract.factory.methods.allPairsLength().call({                                                     
             gasLimit: 30000,                                                                                                
-            gasPrice: await web3.eth.getGasPrice(),                                                                             		})
-   );
+            gasPrice: await web3.eth.getGasPrice(),
+  }));
 ```
 
 #### background:
